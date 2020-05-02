@@ -2,9 +2,8 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE := com.wireguard.android
-LOCAL_SRC_FILES := com.wireguard.android_474.apk
+LOCAL_SRC_FILES := com.wireguard.android_472.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_PATH := $(TARGET_OUT_DATA)
 include $(BUILD_PREBUILT)
