@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <permissions>
     <privapp-permissions package="org.microg.gms.droidguard">
+	<permission name="android.permission.FAKE_PACKAGE_SIGNATURE"/>
         <permission name="android.permission.INTERNET"/>
     </privapp-permissions>
 </permissions>
